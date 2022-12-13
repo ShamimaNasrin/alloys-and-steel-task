@@ -1,0 +1,135 @@
+/*==================== BASE ====================*/
+* {
+    font-family: 'ITC Avant Garde Gothic Std', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --text-color: #EC2232;
+}
+
+
+/*==================== Header ====================*/
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-container {
+    padding: 15px;
+}
+
+.menu-bar {
+    font-size: 30px;
+
+}
+
+.nav-middle {
+    width: 80%;
+}
+
+.getInTouch {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.nav-arrow {
+    margin-left: 3px;
+}
+
+.nav-hr {
+    height: 2px;
+    border-width: 0;
+    color: black;
+    background-color: black
+}
+
+/*==================== REUSABLE CSS CLASSES ====================*/
+.img-fluid {
+    width: 100%;
+}
+
+.banner-container {
+    background-image: linear-gradient(180deg, #05283E -23.09%, rgba(9, 67, 103, 0) 107.85%), url("/images/nav/banner.png");
+    height: 90vh;
+    margin: 0px 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    color: white;
+}
+
+.banner-body h1 {
+    position: absolute;
+    height: 250px;
+    left: 100px;
+    top: 100px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 70px;
+    letter-spacing: -0.02em;
+    text-shadow: -1px 1px 0 #000,
+        1px 1px 0 #000,
+        1px -1px 0 #000,
+        -1px -1px 0 #000;
+}
+
+.red-div {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(236, 34, 50, 0.5);
+    left: 100px;
+    bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red-div-text {
+    font-size: 35px;
+    color: rgba(149, 9, 19, 0.5);
+    text-shadow: -1px 1px 0 white,
+        1px 1px 0 white,
+        1px -1px 0 white,
+        -1px -1px 0 white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+}
+
+.red-hr {
+    width: 50px;
+    height: 2px;
+    border-width: 0;
+    color: white;
+    background-color: white;
+    display: inline;
+    margin-left: 5px;
+}
+
+.text-banner-div {
+    width: 50%;
+}
+
+.floating-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    background: linear-gradient(90deg, #FFFFFF -6.46%, rgba(255, 255, 255, 0.2) 54.85%, rgba(255, 255, 255, 0) 104.78%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
