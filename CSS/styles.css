@@ -149,7 +149,7 @@ html {
 /*==================== FACTORY INFO ====================*/
 .factory-info {
     background-image: linear-gradient(rgba(9, 67, 103, 0.2), rgba(9, 67, 103, 0.2)), url("/images/factory-info/factory-bg.png");
-    height: 700px;
+    /* height: 700px; */
     background-position: center;
     background-repeat: no-repeat;
     object-fit: cover;
@@ -476,6 +476,44 @@ textarea {
         bottom: 20%;
     }
 
+    /*==================== FACTORY INFO ====================*/
+    .factory-info {
+        min-height: 1200px;
+        padding: 80px 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .factory-p {
+        max-width: 90%;
+    }
+
+    .text-side {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .logo-info-container {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        justify-items: center;
+        align-self: center;
+    }
+
+    .factory-logo-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
     /* Brand */
     .brands {
         padding: 50px 15px;
@@ -642,7 +680,7 @@ textarea {
 
     /*==================== FACTORY INFO ====================*/
     .factory-info {
-        height: auto;
+        min-height: 1000px;
         padding: 130px 5%;
         display: flex;
         flex-direction: column;
