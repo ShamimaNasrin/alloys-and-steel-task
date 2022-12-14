@@ -183,10 +183,6 @@ html {
     font-size: 15px;
 }
 
-.middle-right-ul {
-    /* justify-items: end; */
-}
-
 .footer-right {
     border-left: 1px solid rgba(196, 196, 196, 0.1);
     text-align: end;
@@ -219,6 +215,8 @@ html {
 /*==================== RESPONSIVE FOR SMALL SCREEN ====================*/
 
 @media screen and (max-width: 360px) {
+
+    /* banner */
     .banner-container {
         height: 100vh;
         margin: 0px;
@@ -251,10 +249,56 @@ html {
         bottom: 20%;
     }
 
+    /* Footer */
+
+    .footer {
+        padding: 40px 30px;
+    }
+
+    .footer-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer-left {
+        padding: 10%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .footer-middle {
+        padding: 10%;
+        border-top: 1px solid rgba(196, 196, 196, 0.1);
+        border-left: none;
+    }
+
+    .middle-ul {
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        justify-items: self-start;
+        padding-left: 13px;
+    }
+
+    .footer-right {
+        border-top: 1px solid rgba(196, 196, 196, 0.1);
+        border-left: none;
+        text-align: start;
+        padding: 10%;
+    }
+
+    .footer-icons {
+        justify-content: flex-start;
+    }
+
+    .footer-icon {
+        margin-right: 10px;
+    }
+
 }
 
 /*==================== RESPONSIVE FOR MOBILE ====================*/
 @media screen and (min-width: 361px) and (max-width: 749px) {
+
+    /* banner */
     .banner-container {
         height: 100vh;
         margin: 0px;
@@ -286,5 +330,54 @@ html {
         left: 0px;
         bottom: 27%;
     }
+
+
+
+    /* Footer */
+
+    .footer {
+        padding: 40px 30px;
+    }
+
+    .footer-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer-left {
+        padding: 10%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .footer-middle {
+        padding: 10%;
+        border-top: 1px solid rgba(196, 196, 196, 0.1);
+        border-left: none;
+    }
+
+    .middle-ul {
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        justify-items: self-start;
+        padding-left: 13px;
+    }
+
+    .footer-right {
+        border-top: 1px solid rgba(196, 196, 196, 0.1);
+        border-left: none;
+        text-align: start;
+        padding: 10%;
+    }
+
+    .footer-icons {
+        justify-content: flex-start;
+    }
+
+    .footer-icon {
+        margin-right: 10px;
+    }
+
+
+
 
 }
