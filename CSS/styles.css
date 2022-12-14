@@ -58,6 +58,11 @@ html {
     width: 100%;
 }
 
+.grid {
+    display: grid;
+}
+
+/*==================== BANNER ====================*/
 .banner-container {
     background-image: linear-gradient(180deg, #05283E -23.09%, rgba(9, 67, 103, 0) 107.85%), url("/images/nav/banner.png");
     height: 90vh;
@@ -137,10 +142,57 @@ html {
     bottom: 25%;
 }
 
+/*==================== FOOTER ====================*/
+
+.footer {
+    background: #181818;
+    color: #FFFFFF;
+    padding: 100px 150px;
+}
+
+.footer-container {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.footer-left {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container h3 {
+    line-height: 40px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.footer-middle {
+    padding: 0px 15%;
+    border-left: 1px solid rgba(196, 196, 196, 0.1);
+}
+
+.middle-ul {
+    grid-auto-flow: row;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    justify-items: end;
+}
+
+.middle-ul li {
+    line-height: 38px;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.middle-right-ul {
+    /* justify-items: end; */
+}
+
+.footer-right {
+    border: 1px solid rgba(196, 196, 196, 0.1);
+}
 
 
-
-/*==================== RESPONSIVE FOR MOBILE ====================*/
+/*==================== RESPONSIVE FOR SMALL SCREEN ====================*/
 
 @media screen and (max-width: 360px) {
     .banner-container {
@@ -177,6 +229,7 @@ html {
 
 }
 
+/*==================== RESPONSIVE FOR MOBILE ====================*/
 @media screen and (min-width: 361px) and (max-width: 749px) {
     .banner-container {
         height: 100vh;
