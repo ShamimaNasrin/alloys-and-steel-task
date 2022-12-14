@@ -551,6 +551,63 @@ textarea {
         bottom: 20%;
     }
 
+    /*==================== INDUSTRY EXPERT ====================*/
+    .industry-expert {
+        padding: 70px 40px;
+    }
+
+    .top-text-container {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .top-text-left {
+        width: 100%;
+        /* padding-left: 130px; */
+    }
+
+    .red-p {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .industry-expert-h2 {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .top-text-right {
+        width: 100%;
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
+
+    .top-text-p {
+        width: 100%;
+    }
+
+    .expert-amount-container {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 40px;
+    }
+
+    .expert-amount-child {
+        border-left: 0px;
+        border-top: 1px solid #C4C4C4;
+        padding: 0;
+        margin: 10px 0px 0px;
+    }
+
+    .child-h2 {
+        font-size: 60px;
+    }
+
+
     /*==================== FACTORY INFO ====================*/
     .factory-info {
         min-height: 1200px;
@@ -783,8 +840,6 @@ textarea {
 
     .top-text-right {
         width: 100%;
-        display: flex;
-        align-items: flex-end;
         margin-bottom: 0px;
         margin-top: 20px;
     }
@@ -795,20 +850,11 @@ textarea {
 
     .expert-amount-container {
         width: 100%;
-        margin: 130px auto 20px;
         grid-template-columns: repeat(3, 1fr);
-        justify-content: center;
-        align-items: center;
-        justify-items: center;
     }
 
     .child-h2 {
-        font-weight: 600;
         font-size: 60px;
-        display: flex;
-        justify-content: center;
-        justify-items: baseline;
-        align-items: center;
     }
 
 
