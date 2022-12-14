@@ -383,6 +383,78 @@ textarea {
         bottom: 20%;
     }
 
+    /* Contact */
+
+    .contact-container {
+        grid-template-columns: repeat(1, 1fr);
+        /* grid-template-rows: repeat(2, 1fr, 2fr); */
+    }
+
+    .contact-left {
+        padding: 70px 10px;
+    }
+
+    .contact-left h2 {
+        font-size: 40px;
+    }
+
+    .form-input {
+        max-width: 100%;
+    }
+
+    .contact-right {
+        padding: 70px 10px;
+        height: auto;
+    }
+
+    .contact-right-container {
+        max-height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .address {
+        padding-bottom: 15px;
+    }
+
+    .phone {
+        padding: 15px 0px;
+    }
+
+    .time {
+        padding-top: 15px;
+    }
+
+    .contact-text {
+        max-width: 100%;
+        margin-left: 0px;
+        z-index: 2;
+    }
+
+    .contact-ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .contact-ul li {
+        margin-left: 15px;
+    }
+
+    .contact-p {
+        word-wrap: break-word;
+    }
+
+    .map-img {
+        width: 100%;
+        max-height: 300px;
+        object-fit: cover;
+        z-index: 1;
+    }
+
+
     /* Footer */
 
     .footer {
