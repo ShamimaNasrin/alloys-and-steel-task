@@ -212,6 +212,65 @@ textarea {
 
     padding: 100px 150px 100px 0px;
     background-color: #F8F8F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-right-container {
+    max-height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.contact-text {
+    max-width: 300px;
+    max-height: 100%;
+    background-color: white;
+    padding: 30px;
+    margin-left: -70px;
+    z-index: 2;
+    font-family: 'AvertaStd-Regular';
+}
+
+.text-address-heading {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.03em;
+    color: #192437;
+}
+
+.contact-p {
+    font-size: 15px;
+    line-height: 22px;
+    color: #828282;
+    margin-top: 20px;
+}
+
+.address {
+    border-bottom: 1px solid #C4C4C4;
+    padding-bottom: 30px;
+}
+
+.phone {
+    border-bottom: 1px solid #C4C4C4;
+    padding: 30px 0px;
+}
+
+.time {
+    padding-top: 30px;
+}
+
+.map-img-container {
+    width: 70%;
+    z-index: 1;
+}
+
+.time li {
+    list-style-type: none;
 }
 
 /*==================== FOOTER ====================*/
