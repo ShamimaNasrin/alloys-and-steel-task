@@ -188,7 +188,31 @@ html {
 }
 
 .footer-right {
-    border: 1px solid rgba(196, 196, 196, 0.1);
+    border-left: 1px solid rgba(196, 196, 196, 0.1);
+    text-align: end;
+    padding: 0px 15%;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.footer-icon {
+    margin-left: 10px;
+}
+
+.footer-right-text {
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: -0.03em;
+}
+
+.footer-right-text p {
+    margin-top: 20px;
 }
 
 
