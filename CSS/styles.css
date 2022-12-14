@@ -148,6 +148,36 @@ html {
 
 
 
+/*==================== BRANDS ====================*/
+.brands {
+    padding: 130px;
+}
+
+.brand-p {
+    font-weight: 500;
+    font-size: 25px;
+    letter-spacing: -0.02em;
+    color: #E82232;
+    text-align: center;
+}
+
+.brand-logo-container {
+    margin-top: 50px;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-self: center;
+}
+
+.osima-custom {
+    filter: opacity(0.1) drop-shadow(0 0 0 gray);
+}
+
+.brand-logo-div img:hover {
+    filter: opacity(1) drop-shadow(0 0 0 blue);
+}
 
 /*==================== CONTACT ====================*/
 .contact-container {
@@ -383,6 +413,16 @@ textarea {
         bottom: 20%;
     }
 
+    /* Brand */
+    .brands {
+        padding: 50px 15px;
+    }
+
+    .brand-logo-container {
+        margin-top: 30px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
     /* Contact */
 
     .contact-container {
@@ -536,6 +576,21 @@ textarea {
         left: 0px;
         bottom: 27%;
     }
+
+    /* Brand */
+    .brands {
+        padding: 70px 80px;
+    }
+
+    .brand-p {
+        font-size: 18px;
+    }
+
+    .brand-logo-container {
+        margin-top: 30px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
 
     /* Contact */
 
