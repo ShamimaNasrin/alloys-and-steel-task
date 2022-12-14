@@ -640,6 +640,41 @@ textarea {
         bottom: 27%;
     }
 
+    /*==================== FACTORY INFO ====================*/
+    .factory-info {
+        height: auto;
+        padding: 130px 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .factory-p {
+        max-width: 90%;
+    }
+
+    .text-side {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .logo-info-container {
+        width: 90%;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+
+    }
+
+    .logo-side {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+
     /* Brand */
     .brands {
         padding: 70px 80px;
