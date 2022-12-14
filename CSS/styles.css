@@ -146,6 +146,76 @@ html {
     bottom: 25%;
 }
 
+
+
+/*==================== INDUSTRY EXPERT ====================*/
+.industry-expert {
+    padding: 100px 200px;
+}
+
+.top-text-container {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.top-text-left {
+    width: 50%;
+    /* padding-left: 130px; */
+}
+
+.red-p {
+    color: #EC2232;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: -0.02em;
+}
+
+.industry-expert-h2 {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 55px;
+    letter-spacing: -0.02em;
+    margin-top: 20px;
+}
+
+.top-text-right {
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: -80px;
+}
+
+.top-text-p {
+    width: 70%;
+}
+
+.expert-amount-container {
+    width: 70%;
+    margin: 130px auto 20px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.child-h2 {
+    font-weight: 600;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    justify-items: baseline;
+    align-items: center;
+}
+
+.red-plus {
+    color: #EC2232;
+}
+
+
+
 /*==================== FACTORY INFO ====================*/
 .factory-info {
     background-image: linear-gradient(rgba(9, 67, 103, 0.2), rgba(9, 67, 103, 0.2)), url("/images/factory-info/factory-bg.png");
