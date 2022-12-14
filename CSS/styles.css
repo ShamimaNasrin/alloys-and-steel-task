@@ -146,6 +146,69 @@ html {
     bottom: 25%;
 }
 
+/*==================== FACTORY INFO ====================*/
+.factory-info {
+    background-image: linear-gradient(rgba(9, 67, 103, 0.2), rgba(9, 67, 103, 0.2)), url("/images/factory-info/factory-bg.png");
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    position: relative;
+    color: white;
+    padding: 130px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.factory-h2 {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 55px;
+    letter-spacing: -0.02em;
+    margin-bottom: 30px;
+}
+
+.factory-p {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 27px;
+    margin-bottom: 30px;
+    max-width: 80%;
+}
+
+.text-side {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.logo-info-container {
+    width: 90%;
+    margin-top: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: start;
+    align-items: end;
+}
+
+.factory-circle-img {
+    width: 190px;
+}
+
+.factory-logo {
+    width: 70px;
+}
+
+.logo-text h4 {
+    font-size: 25px;
+    margin-top: 7px;
+}
+
+.logo-text p {
+    margin-top: 7px;
+}
 
 
 /*==================== BRANDS ====================*/
