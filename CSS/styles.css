@@ -265,7 +265,7 @@ html {
 }
 
 .partners-img-slider {
-    width: 70%;
+    width: 80%;
     position: absolute;
     right: 0;
     /* top: 60%; */
@@ -273,6 +273,7 @@ html {
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
     overflow-x: auto;
+    z-index: 1;
 }
 
 .partners-img-slider::-webkit-scrollbar {
@@ -299,7 +300,79 @@ html {
 }
 
 
+/*==================== INDUSTRY SERVED ====================*/
+.industry-section {
+    padding: 0px 200px 100px;
+    position: relative;
+    margin-top: 70px;
+}
 
+.industry-text-container {
+    width: 80%;
+    display: flex;
+    padding-left: 10px;
+}
+
+.industry-heading-container {
+    position: relative;
+}
+
+.transparent-h2,
+.industry-h2 {
+    font-weight: 600;
+    font-size: 60px;
+    padding: 0;
+    margin: 0;
+}
+
+.transparent-h2 {
+    color: white;
+    text-shadow: -1px 1px 0 #353535,
+        1px 1px 0 #353535,
+        1px -1px 0 #353535,
+        -1px -1px 0 #353535;
+}
+
+#industry-h2-1 {
+    z-index: 1;
+}
+
+#industry-h2-2 {
+    z-index: 2;
+    top: 50px;
+    background: white;
+    position: absolute;
+}
+
+#industry-h2 {
+    z-index: 3;
+    top: 100px;
+    background: white;
+    position: absolute;
+}
+
+.industry-h2 {
+    color: #222222;
+}
+
+.red-plus-div {
+    width: 60px;
+    margin-left: -20px;
+    margin-top: 130px;
+}
+
+.industry-p {
+    color: #9198A0;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.structure-img {
+    position: absolute;
+    width: 200px;
+    right: 0;
+    top: 0;
+}
 
 /*==================== FACTORY INFO ====================*/
 .factory-info {
