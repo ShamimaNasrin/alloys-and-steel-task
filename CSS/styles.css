@@ -671,9 +671,10 @@ textarea {
     }
 
     .industry-expert-h2 {
-        width: 80%;
+        width: 97%;
         margin-left: auto;
         margin-right: auto;
+        font-size: 34px;
     }
 
     .top-text-right {
@@ -701,6 +702,43 @@ textarea {
 
     .child-h2 {
         font-size: 60px;
+    }
+
+    /*==================== PARTNERS ====================*/
+
+    .partners-section {
+        height: 1050px;
+    }
+
+    .partners {
+        min-height: 600px;
+        padding: 70px 40px;
+    }
+
+    .partners-text-container {
+        width: 90%;
+        text-align: center;
+    }
+
+    .partners-img-slider {
+        width: 100%;
+        right: 0;
+        overflow-x: auto;
+        z-index: 2;
+    }
+
+    .partners-img-slider::-webkit-scrollbar {
+        width: 0px;
+    }
+
+    .slider-card {
+        width: 300px;
+    }
+
+    .slider-p {
+        width: 90%;
+        font-size: 18px;
+        line-height: 32px;
     }
 
 
@@ -956,6 +994,44 @@ textarea {
     .child-h2 {
         font-size: 60px;
     }
+
+    /*==================== PARTNERS ====================*/
+
+    .partners-section {
+        height: 1050px;
+    }
+
+    .partners {
+        min-height: 600px;
+        padding: 70px 40px;
+    }
+
+    .partners-text-container {
+        width: 90%;
+        text-align: center;
+    }
+
+    .partners-img-slider {
+        width: 100%;
+        right: 0;
+        overflow-x: auto;
+        z-index: 2;
+    }
+
+    .partners-img-slider::-webkit-scrollbar {
+        width: 0px;
+    }
+
+    .slider-card {
+        width: 300px;
+    }
+
+    .slider-p {
+        width: 90%;
+        font-size: 18px;
+        line-height: 32px;
+    }
+
 
 
     /*==================== FACTORY INFO ====================*/
