@@ -1,6 +1,8 @@
 /*==================== BASE ====================*/
 * {
-    font-family: 'ITC Avant Garde Gothic Std', sans-serif;
+    /* font-family: 'ITC Avant Garde Gothic Std', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    ;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -154,7 +156,7 @@ html {
 }
 
 .top-text-container {
-    width: 70%;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -186,10 +188,11 @@ html {
     display: flex;
     align-items: flex-end;
     margin-bottom: -80px;
+
 }
 
 .top-text-p {
-    width: 70%;
+    width: 90%;
 }
 
 .expert-amount-container {
@@ -201,9 +204,16 @@ html {
     justify-items: center;
 }
 
+.expert-text-align,
+.expert-amount-child {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    align-self: center;
+}
+
 .expert-amount-child {
     border-left: 1px solid #C4C4C4;
-    padding: 10px;
 }
 
 .child-h2 {
@@ -213,13 +223,21 @@ html {
     justify-content: center;
     justify-items: baseline;
     align-items: center;
+    text-align: center;
 }
 
 .red-plus {
     color: #EC2232;
 }
 
-
+/*==================== PARTNERS ====================*/
+.partners {
+    padding: 100px 200px;
+    background-image: url("/images/partners/partners-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
 
 /*==================== FACTORY INFO ====================*/
 .factory-info {
@@ -234,6 +252,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 5;
 }
 
 .factory-h2 {
@@ -285,6 +304,20 @@ html {
     margin-top: 7px;
 }
 
+
+.factoryinfo-shape-div {
+    width: 150px;
+    position: absolute;
+    right: 18%;
+    bottom: -100px;
+    z-index: -1;
+    display: flex;
+}
+
+.circle-shape {
+    width: 100%;
+    margin-bottom: 30px;
+}
 
 /*==================== BRANDS ====================*/
 .brands {
@@ -391,6 +424,7 @@ textarea {
     justify-content: center;
     align-items: center;
     position: relative;
+    filter: drop-shadow(0px 0px 60px rgba(0, 0, 0, 0.15));
 }
 
 .contact-text {
@@ -646,6 +680,10 @@ textarea {
         text-align: center;
     }
 
+    .factoryinfo-shape-div {
+        display: none;
+    }
+
     /* Brand */
     .brands {
         padding: 50px 15px;
@@ -890,6 +928,10 @@ textarea {
         width: 100%;
         display: flex;
         justify-content: center;
+    }
+
+    .factoryinfo-shape-div {
+        display: none;
     }
 
 
