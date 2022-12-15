@@ -231,13 +231,75 @@ html {
 }
 
 /*==================== PARTNERS ====================*/
-.partners {
-    padding: 100px 200px;
-    background-image: url("/images/partners/partners-bg.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    object-fit: cover;
+
+.partners-section {
+    height: 1000px;
 }
+
+.partners {
+    min-height: 600px;
+    padding: 100px 200px;
+    background-color: #F9F9F9;
+    position: relative;
+}
+
+.partners-text-container {
+    width: 85%;
+    margin: 5px auto 100px;
+}
+
+.partners-img-right {
+    position: absolute;
+    width: 20%;
+    top: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.partners-img-left {
+    position: absolute;
+    width: 20%;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.partners-img-slider {
+    width: 70%;
+    position: absolute;
+    right: 0;
+    /* top: 60%; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    overflow-x: auto;
+}
+
+.partners-img-slider::-webkit-scrollbar {
+    width: 2px;
+}
+
+.slider-card {
+    width: 360px;
+    background-color: #FFFFFF;
+    max-height: 600px;
+    box-shadow: 2px 20px 30px rgba(0, 0, 0, 0.1);
+}
+
+.slider-container {
+    padding: 22px 30px;
+}
+
+.slider-p {
+    width: 70%;
+    color: #222222;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 35px;
+}
+
+
+
 
 /*==================== FACTORY INFO ====================*/
 .factory-info {
